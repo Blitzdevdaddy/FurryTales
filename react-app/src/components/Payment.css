@@ -1,0 +1,85 @@
+/* Payment.css */
+
+/* Container styles */
+.payment-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh; /* Ensure the page takes up at least the full viewport height */
+}
+
+/* Content styles */
+.payment-content {
+  width: 80%; /* Adjust the width as needed */
+  margin-top: 20px; /* Add spacing from the header */
+  flex-grow: 1; /* Allow the content to grow to fill the available space */
+}
+
+/* Form styles */
+.payment-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input box styles */
+.input-box {
+  margin-bottom: 15px; /* Add spacing between input boxes */
+}
+
+.input-box label {
+  color: #34495E; /* Color for labels */
+  margin-bottom: 5px; /* Add spacing below labels */
+}
+
+.input-box input {
+  width: 100%; /* Input fields take up full width */
+  padding: 8px; /* Adjust padding as needed */
+  border: 1px solid #34495E; /* Add border */
+  border-radius: 5px; /* Add border radius */
+}
+
+/* Save button styles */
+/* Save button styles */
+.save-button {
+  background-color: #34495E; /* Background color */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px; /* Add margin at the bottom */
+}
+/* CSS */
+.total-amount-box {
+  margin-top: 20px; /* Add space above the total amount */
+  margin-bottom: 20px; /* Add space below the total amount */
+  padding: 10px; /* Add padding to the box */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 5px; /* Add border radius */
+}
+
+
+.save-button:hover {
+  background-color: #2C3E50; /* Darker background color on hover */
+}
+
+/* Header styles */
+.header {
+  width: 100%;
+  background-color: #34495E; /* Header background color */
+  color: #fff; /* Header text color */
+  padding: 20px 0; /* Adjust padding as needed */
+  text-align: center; /* Center-align header content */
+}
+
+/* Footer styles */
+/* Footer styles */
+.footer {
+  position: fixed; /* Fix the footer position */
+  bottom: 0; /* Align the footer to the bottom of the viewport */
+  background-color: #34495E; /* Footer background color */
+  color: #fff; /* Footer text color */
+  padding: 20px; /* Adjust padding as needed */
+  width: 100%; /* Ensure footer spans the full width of the viewport */
+  text-align: center; /* Center-align footer content */
+}

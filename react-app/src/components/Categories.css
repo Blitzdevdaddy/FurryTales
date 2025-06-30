@@ -1,0 +1,5 @@
+/* Your CSS file (e.g., Categories.css) */
+.hover-lighten:hover {
+  background-color: #4a6180 !important; /* Adjust the color as needed */
+  border-color: #4a6180 !important; /* Adjust the color as needed */
+}

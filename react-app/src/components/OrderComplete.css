@@ -1,0 +1,26 @@
+/* OrderComplete.css */
+
+.order-complete-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px); /* Adjust based on your header and footer height */
+  }
+  
+  .order-success-box {
+    background-color: #dff0d8; /* Green color similar to success messages */
+    border: 1px solid #c3e6cb; /* Border color */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+  }
+  
+  .order-success-box h2 {
+    color: #28a745; /* Green color for the heading */
+    margin-bottom: 10px;
+  }
+  
+  .order-success-box p {
+    color: #333; /* Text color */
+  }
+  
